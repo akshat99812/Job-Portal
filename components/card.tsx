@@ -1,7 +1,15 @@
 // components/JobCard.js
 import React from "react";
 
-const JobCard = ({ job }) => {
+interface Job {
+    title: string;
+    company: string;
+    jobType: string;
+    workLocation: string;
+    salaryRange: string;
+}
+
+const JobCard = ({ job }: { job: Job }) => {
   return (
     <div className="w-full bg-white shadow-lg rounded-lg p-6 mb-4 border ">
       <h5 className="text-gray-900 font-bold text-xl mb-2">{job.title}</h5>
