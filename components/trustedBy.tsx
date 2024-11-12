@@ -44,7 +44,7 @@ export const TrustedBy = () => {
         </div>
 
         {/* Marquee Component */}
-        <Marquee className="" repeat={3} pauseOnHover>
+        <Marquee className="" repeat={3} pauseOnHover key={""}>
           {images.map(({ src, alt }) => (
             <span key={alt} className="mx-4 flex-none flex items-center justify-center">
               <Image
@@ -57,7 +57,7 @@ export const TrustedBy = () => {
           ))}
         </Marquee>
 
-        <Marquee className="" repeat={3} pauseOnHover>
+        <Marquee className="" repeat={3} pauseOnHover key={""}>
           {images_2.map(({ src, alt }) => (
             <span key={alt} className="mx-4 flex-none flex items-center justify-center">
               <Image
