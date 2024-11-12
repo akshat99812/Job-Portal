@@ -9,7 +9,7 @@ const Tweets = ({
   avatar,
   name,
   id,
-  post,
+  //post,
   content,
 }: {
   avatar: string;
@@ -27,7 +27,7 @@ const Tweets = ({
         href={link}
         target="_blank"
       >
-        <div className="text-gray-700 mb-7">"{content}"</div>
+        <div className="text-gray-700 mb-7">&quot;{content}&quot;</div>
         <div className="flex flex-row items-center justify-between">
           <div className="flex flex-col justify-center">
             <div className="font-bold text-base">{name}</div>

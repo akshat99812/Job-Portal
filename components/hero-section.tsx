@@ -32,7 +32,7 @@ const HeroSection = () => {
           </h1>
           <p className="md:w-4/6 w-full text-center my-3 text-[#64748B] font-medium dark:text-[#94A3B8]">
             Find your dream job and internship opportunities. Remote, onsite, or
-            hybrid—we've got what you're looking for.
+            hybrid—we&apos;ve got what you&apos;re looking for.
           </p>
         </div>
         <div className="md:w-4/6 w-full flex md:flex-row flex-col items-center justify-center my-4">
@@ -55,17 +55,6 @@ const HeroSection = () => {
           <p className="border border-[#d580ff] rounded-lg bg-opacity-10 py-1 px-3 text-[#d580ff] text-xs w-fit font-medium">
             Backed by Codame Founders
           </p>
-          {/* Uncomment below if using trusted companies */}
-          {/* <div className="grid md:grid-cols-6 grid-cols-2 items-center gap-1 md:mt-0 mt-4 dark:bg-[#02081766]">
-            {trustedCompanies.map((company, i) => (
-              <Image
-                key={i}
-                className="mx-4 md:w-28 w-24 h-20 md:h-24"
-                src={company.icon}
-                alt={`${company.name}-icon`}
-              />
-            ))}
-          </div> */}
         </div>
         
       </div>
