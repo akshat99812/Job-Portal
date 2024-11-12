@@ -1,0 +1,459 @@
+[
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "company": "Tech Corp",
+      "jobType": "Full Time",
+      "workLocation": "Remote",
+      "salaryRange": "$50k or above"
+    },
+    {
+      "id": 2,
+      "title": "Project Manager",
+      "company": "Innovate Solutions",
+      "jobType": "Part Time",
+      "workLocation": "Hybrid",
+      "salaryRange": "$30-$50k"
+    },
+    {
+      "id": 3,
+      "title": "Marketing Specialist",
+      "company": "Creative Media",
+      "jobType": "Internship",
+      "workLocation": "Office",
+      "salaryRange": "$0-$5k"
+    },
+    {
+      "id": 4,
+      "title": "Data Analyst",
+      "company": "Data Insights",
+      "jobType": "Contract",
+      "workLocation": "Remote",
+      "salaryRange": "$10-$30k"
+    },
+    {
+      "id": 5,
+      "title": "UX Designer",
+      "company": "Design Works",
+      "jobType": "Full Time",
+      "workLocation": "Hybrid",
+      "salaryRange": "$5-$10k"
+    },
+    {
+      "id": 6,
+      "title": "Customer Support",
+      "company": "Helpdesk Services",
+      "jobType": "Full Time",
+      "workLocation": "Office",
+      "salaryRange": "$10-$30k"
+    },
+    {
+      "id": 7,
+      "title": "HR Assistant",
+      "company": "People Matters",
+      "jobType": "Internship",
+      "workLocation": "Remote",
+      "salaryRange": "$0-$5k"
+    },
+    {
+      "id": 8,
+      "title": "Network Engineer",
+      "company": "Connect IT",
+      "jobType": "Contract",
+      "workLocation": "Office",
+      "salaryRange": "$30-$50k"
+    },
+    {
+      "id": 9,
+      "title": "Accountant",
+      "company": "Finance Pros",
+      "jobType": "Part Time",
+      "workLocation": "Hybrid",
+      "salaryRange": "$5-$10k"
+    },
+    {
+      "id": 10,
+      "title": "Content Writer",
+      "company": "Write Media",
+      "jobType": "Full Time",
+      "workLocation": "Remote",
+      "salaryRange": "$0-$5k"
+    },
+    {
+      "id": 11,
+      "title": "Data Scientist",
+      "company": "Big Data Co",
+      "jobType": "Full Time",
+      "workLocation": "Remote",
+      "salaryRange": "$50k or above"
+    },
+    {
+      "id": 12,
+      "title": "Business Analyst",
+      "company": "Analytics Hub",
+      "jobType": "Full Time",
+      "workLocation": "Hybrid",
+      "salaryRange": "$30-$50k"
+    },
+    {
+      "id": 13,
+      "title": "Frontend Developer",
+      "company": "Web Solutions",
+      "jobType": "Part Time",
+      "workLocation": "Office",
+      "salaryRange": "$10-$30k"
+    },
+    {
+      "id": 14,
+      "title": "Recruiter",
+      "company": "Talent Seekers",
+      "jobType": "Internship",
+      "workLocation": "Remote",
+      "salaryRange": "$0-$5k"
+    },
+    {
+      "id": 15,
+      "title": "IT Consultant",
+      "company": "Consulting Pros",
+      "jobType": "Contract",
+      "workLocation": "Hybrid",
+      "salaryRange": "$30-$50k"
+    },
+    {
+      "id": 16,
+      "title": "Graphic Designer",
+      "company": "Design Studio",
+      "jobType": "Full Time",
+      "workLocation": "Office",
+      "salaryRange": "$5-$10k"
+    },
+    {
+      "id": 17,
+      "title": "Operations Manager",
+      "company": "Supply Chain Solutions",
+      "jobType": "Full Time",
+      "workLocation": "Hybrid",
+      "salaryRange": "$50k or above"
+    },
+    {
+      "id": 18,
+      "title": "Social Media Manager",
+      "company": "Social Impact",
+      "jobType": "Part Time",
+      "workLocation": "Remote",
+      "salaryRange": "$10-$30k"
+    },
+    {
+      "id": 19,
+      "title": "Sales Executive",
+      "company": "Sell Well",
+      "jobType": "Full Time",
+      "workLocation": "Office",
+      "salaryRange": "$30-$50k"
+    },
+    {
+      "id": 20,
+      "title": "Administrative Assistant",
+      "company": "Office Solutions",
+      "jobType": "Internship",
+      "workLocation": "Hybrid",
+      "salaryRange": "$0-$5k"
+    },
+    {
+      "id": 21,
+      "title": "Product Manager",
+      "company": "Productive",
+      "jobType": "Full Time",
+      "workLocation": "Remote",
+      "salaryRange": "$50k or above"
+    },
+    {
+        "id": 22,
+        "title": "Backend Developer",
+        "company": "Backend Solutions",
+        "jobType": "Full Time",
+        "workLocation": "Remote",
+        "salaryRange": "$50k or above"
+      },
+      {
+        "id": 23,
+        "title": "Systems Analyst",
+        "company": "IT Services",
+        "jobType": "Contract",
+        "workLocation": "Office",
+        "salaryRange": "$30-$50k"
+      },
+      {
+        "id": 24,
+        "title": "Operations Coordinator",
+        "company": "Business Operations Inc.",
+        "jobType": "Internship",
+        "workLocation": "Hybrid",
+        "salaryRange": "$5-$10k"
+      },
+      {
+        "id": 25,
+        "title": "Quality Assurance Engineer",
+        "company": "QA Masters",
+        "jobType": "Full Time",
+        "workLocation": "Remote",
+        "salaryRange": "$10-$30k"
+      },
+      {
+        "id": 26,
+        "title": "Legal Advisor",
+        "company": "Legal Pros",
+        "jobType": "Part Time",
+        "workLocation": "Office",
+        "salaryRange": "$30-$50k"
+      },
+      {
+        "id": 27,
+        "title": "Technical Support Specialist",
+        "company": "Support Hub",
+        "jobType": "Full Time",
+        "workLocation": "Remote",
+        "salaryRange": "$5-$10k"
+      },
+      {
+        "id": 28,
+        "title": "Research Assistant",
+        "company": "Academic Research",
+        "jobType": "Internship",
+        "workLocation": "Hybrid",
+        "salaryRange": "$0-$5k"
+      },
+      {
+        "id": 29,
+        "title": "Financial Analyst",
+        "company": "Finance Experts",
+        "jobType": "Contract",
+        "workLocation": "Office",
+        "salaryRange": "$50k or above"
+      },
+      {
+        "id": 30,
+        "title": "Copywriter",
+        "company": "Write Solutions",
+        "jobType": "Part Time",
+        "workLocation": "Remote",
+        "salaryRange": "$10-$30k"
+      },
+      {
+        "id": 31,
+        "title": "Executive Assistant",
+        "company": "Corp Support",
+        "jobType": "Full Time",
+        "workLocation": "Hybrid",
+        "salaryRange": "$30-$50k"
+      },
+      {
+        "id": 32,
+        "title": "Product Designer",
+        "company": "Creative Lab",
+        "jobType": "Full Time",
+        "workLocation": "Office",
+        "salaryRange": "$10-$30k"
+      },
+      {
+        "id": 33,
+        "title": "Technical Writer",
+        "company": "Doc Services",
+        "jobType": "Contract",
+        "workLocation": "Remote",
+        "salaryRange": "$10-$30k"
+      },
+      {
+        "id": 34,
+        "title": "Marketing Manager",
+        "company": "Market Leaders",
+        "jobType": "Full Time",
+        "workLocation": "Office",
+        "salaryRange": "$50k or above"
+      },
+      {
+        "id": 35,
+        "title": "Data Engineer",
+        "company": "Big Data Systems",
+        "jobType": "Full Time",
+        "workLocation": "Remote",
+        "salaryRange": "$50k or above"
+      },
+      {
+        "id": 36,
+        "title": "Office Manager",
+        "company": "Admin Experts",
+        "jobType": "Full Time",
+        "workLocation": "Office",
+        "salaryRange": "$30-$50k"
+      },
+      {
+        "id": 37,
+        "title": "Sales Associate",
+        "company": "Retail Solutions",
+        "jobType": "Part Time",
+        "workLocation": "Office",
+        "salaryRange": "$0-$5k"
+      },
+      {
+        "id": 38,
+        "title": "Database Administrator",
+        "company": "Data Security Inc.",
+        "jobType": "Full Time",
+        "workLocation": "Hybrid",
+        "salaryRange": "$30-$50k"
+      },
+      {
+        "id": 39,
+        "title": "SEO Specialist",
+        "company": "Digital Marketing",
+        "jobType": "Contract",
+        "workLocation": "Remote",
+        "salaryRange": "$10-$30k"
+      },
+      {
+        "id": 40,
+        "title": "Human Resources Manager",
+        "company": "HR Solutions",
+        "jobType": "Full Time",
+        "workLocation": "Hybrid",
+        "salaryRange": "$50k or above"
+      },
+      {
+        "id": 41,
+        "title": "Graphic Designer",
+        "company": "Design Experts",
+        "jobType": "Part Time",
+        "workLocation": "Remote",
+        "salaryRange": "$5-$10k"
+      },
+      {
+        "id": 42,
+        "title": "Machine Learning Engineer",
+        "company": "AI Labs",
+        "jobType": "Full Time",
+        "workLocation": "Remote",
+        "salaryRange": "$50k or above"
+      },
+      {
+        "id": 43,
+        "title": "Supply Chain Analyst",
+        "company": "Logistics Solutions",
+        "jobType": "Contract",
+        "workLocation": "Office",
+        "salaryRange": "$30-$50k"
+      },
+      {
+        "id": 44,
+        "title": "Security Analyst",
+        "company": "CyberSafe",
+        "jobType": "Full Time",
+        "workLocation": "Hybrid",
+        "salaryRange": "$50k or above"
+      },
+      {
+        "id": 45,
+        "title": "Legal Intern",
+        "company": "Law Associates",
+        "jobType": "Internship",
+        "workLocation": "Office",
+        "salaryRange": "$0-$5k"
+      },
+      {
+        "id": 46,
+        "title": "Software Tester",
+        "company": "QA Corp",
+        "jobType": "Part Time",
+        "workLocation": "Remote",
+        "salaryRange": "$5-$10k"
+      },
+      {
+        "id": 47,
+        "title": "Content Strategist",
+        "company": "Content Creators",
+        "jobType": "Full Time",
+        "workLocation": "Office",
+        "salaryRange": "$30-$50k"
+      },
+      {
+        "id": 48,
+        "title": "Administrative Assistant",
+        "company": "Admin Solutions",
+        "jobType": "Full Time",
+        "workLocation": "Hybrid",
+        "salaryRange": "$10-$30k"
+      },
+      {
+        "id": 49,
+        "title": "Research Scientist",
+        "company": "Bio Research Co.",
+        "jobType": "Contract",
+        "workLocation": "Remote",
+        "salaryRange": "$50k or above"
+      },
+      {
+        "id": 50,
+        "title": "Event Planner",
+        "company": "Event Pros",
+        "jobType": "Part Time",
+        "workLocation": "Office",
+        "salaryRange": "$10-$30k"
+      },
+      {
+        "id": 51,
+        "title": "Junior Software Developer",
+        "company": "Dev Solutions",
+        "jobType": "Full Time",
+        "workLocation": "Remote",
+        "salaryRange": "$30-$50k"
+      },
+      {
+        "id": 52,
+        "title": "Medical Assistant",
+        "company": "Health Services",
+        "jobType": "Part Time",
+        "workLocation": "Office",
+        "salaryRange": "$5-$10k"
+      },
+      {
+        "id": 53,
+        "title": "Cybersecurity Specialist",
+        "company": "Secure IT",
+        "jobType": "Full Time",
+        "workLocation": "Hybrid",
+        "salaryRange": "$50k or above"
+      },
+      {
+        "id": 54,
+        "title": "Community Manager",
+        "company": "Social Hub",
+        "jobType": "Internship",
+        "workLocation": "Remote",
+        "salaryRange": "$0-$5k"
+      },
+      {
+        "id": 55,
+        "title": "Account Manager",
+        "company": "Biz Growth",
+        "jobType": "Contract",
+        "workLocation": "Office",
+        "salaryRange": "$30-$50k"
+      },
+      {
+        "id": 56,
+        "title": "E-commerce Specialist",
+        "company": "Online Retail Inc.",
+        "jobType": "Part Time",
+        "workLocation": "Remote",
+        "salaryRange": "$10-$30k"
+      },
+      {
+        "id": 57,
+        "title": "Data Analyst",
+        "company": "Data Tech",
+        "jobType": "Full Time",
+        "workLocation": "Hybrid",
+        "salaryRange": "$30-$50k"
+      }
+  ]
+  

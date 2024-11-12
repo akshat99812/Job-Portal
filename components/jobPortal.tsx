@@ -22,85 +22,106 @@ const SidebarFilters = () => {
 
   return (
     <aside className="p-4 bg-gray-100 w-60 h-screen">
-      <h2 className="text-xl font-semibold mb-4">Filter Jobs</h2>
+      <h2 className="text-xl font-semibold mb-4 text-xl">Filter Jobs</h2>
       
       {/* Job Type Dropdown */}
       <div className="mb-6">
         <button
-          onClick={() => setIsJobTypeOpen(!isJobTypeOpen)}
-          className="w-full text-left font-semibold py-2 border-b"
+            onClick={() => setIsJobTypeOpen(!isJobTypeOpen)}
+            className="w-full text-left font-semibold py-2 border-b"
         >
-          Job Type
+            Job Type
         </button>
         {isJobTypeOpen && (
-          <div className="mt-2 pl-2">
+            <div className="mt-2 pl-2">
             {jobTypes.map((type) => (
-              <label key={type} className="block text-sm">
+                <label
+                key={type}
+                className={`block text-sm my-2 ${
+                    selectedJobType === type
+                    ? 'text-purple-600 font-medium'
+                    : 'text-gray-600'
+                }`}
+                >
                 <input
-                  type="radio"
-                  name="jobType"
-                  checked={selectedJobType === type}
-                  onChange={() => setSelectedJobType(type)}
-                  className="mr-2"
+                    type="radio"
+                    name="jobType"
+                    checked={selectedJobType === type}
+                    onChange={() => setSelectedJobType(type)}
+                    className="mr-2 text-purple-300 focus:ring-purple-300 accent-purple-500"
                 />
                 {type}
-              </label>
+                </label>
             ))}
-          </div>
+            </div>
         )}
-      </div>
+        </div>
 
       {/* Work Location Dropdown */}
-      <div className="mb-6 ">
+      <div className="mb-6">
         <button
-          onClick={() => setIsWorkLocationOpen(!isWorkLocationOpen)}
-          className="w-full text-left font-semibold py-2 border-b"
+            onClick={() => setIsWorkLocationOpen(!isWorkLocationOpen)}
+            className="w-full text-left font-semibold py-2 border-b"
         >
-          Work Location
+            Work Location
         </button>
         {isWorkLocationOpen && (
-          <div className="mt-2 pl-2">
+            <div className="mt-2 pl-2">
             {workLocations.map((location) => (
-              <label key={location} className="block text-sm">
+                <label
+                key={location}
+                className={`block text-sm my-2 ${
+                    selectedWorkLocation === location
+                    ? 'text-purple-500 font-medium'
+                    : 'text-gray-600'
+                }`}
+                >
                 <input
-                  type="radio"
-                  name="workLocation"
-                  checked={selectedWorkLocation === location}
-                  onChange={() => setSelectedWorkLocation(location)}
-                  className="mr-2"
+                    type="radio"
+                    name="workLocation"
+                    checked={selectedWorkLocation === location}
+                    onChange={() => setSelectedWorkLocation(location)}
+                    className="mr-2 text-purple-300 focus:ring-purple-300 accent-purple-500"
                 />
                 {location}
-              </label>
+                </label>
             ))}
-          </div>
+            </div>
         )}
-      </div>
+        </div>
 
       {/* Salary Range Dropdown */}
       <div className="">
-        <button
-          onClick={() => setIsSalaryRangeOpen(!isSalaryRangeOpen)}
-          className="w-full text-left font-semibold py-2 border-b"
+  <button
+    onClick={() => setIsSalaryRangeOpen(!isSalaryRangeOpen)}
+    className="w-full text-left font-semibold py-2 border-b"
+  >
+    Salary Range
+  </button>
+  {isSalaryRangeOpen && (
+    <div className="mt-2 pl-2">
+      {salaryRanges.map((range) => (
+        <label
+          key={range}
+          className={`block text-sm my-2 ${
+            selectedSalaryRange === range
+              ? 'text-purple-600 font-medium'
+              : 'text-gray-600'
+          }`}
         >
-          Salary Range
-        </button>
-        {isSalaryRangeOpen && (
-          <div className="mt-2 pl-2">
-            {salaryRanges.map((range) => (
-              <label key={range} className="block text-sm">
-                <input
-                  type="radio"
-                  name="salaryRange"
-                  checked={selectedSalaryRange === range}
-                  onChange={() => setSelectedSalaryRange(range)}
-                  className="mr-2"
-                />
-                {range}
-              </label>
-            ))}
-          </div>
-        )}
-      </div>
+          <input
+            type="radio"
+            name="salaryRange"
+            checked={selectedSalaryRange === range}
+            onChange={() => setSelectedSalaryRange(range)}
+            className="mr-2 text-purple-300 focus:ring-purple-300 accent-purple-500"
+          />
+          {range}
+        </label>
+      ))}
+    </div>
+  )}
+</div>
     </aside>
   );
 };

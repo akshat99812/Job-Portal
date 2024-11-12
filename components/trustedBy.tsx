@@ -61,10 +61,10 @@ export const TrustedBy = () => {
           {images_2.map(({ src, alt }) => (
             <span key={alt} className="mx-4 flex-none flex items-center justify-center">
               <Image
-                className="relative w-32 md:w-40 h-auto" // Ensure consistent height
+                className="relative w-32 md:w-40 h-auto" 
                 src={src}
                 alt={alt}
-                style={{ objectFit: "contain" }} // Maintain aspect ratio
+                style={{ objectFit: "contain" }} 
               />
             </span>
           ))}
