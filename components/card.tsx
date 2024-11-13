@@ -9,6 +9,8 @@ interface Job {
     salaryRange: string;
 }
 
+
+
 const JobCard = ({ job }: { job: Job }) => {
   return (
     <div className="w-full bg-white shadow-lg rounded-lg p-6 mb-4 border ">

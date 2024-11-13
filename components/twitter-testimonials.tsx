@@ -120,7 +120,7 @@ const TwitterTestimonials = () => {
       <div className="relative mt-20 mb-20">
         <div className=" relative mt-2 mb-8 z-10 px-4 sm:px-6 max-w-6xl mx-auto flex flex-col justify-center">
           <h3 className=" text-center h2 px-10 text-secondary-300">
-            We love when users talk about Keploy..
+            We love when users talk about Codame..
           </h3>
           {/* for mobile view */}
           <div className="space-y-5 mt-10 sm:hidden block">

@@ -31,9 +31,6 @@ const Navbar = () => {
                 Contact Us
             </div>
             <div>
-                <button>Dark mode</button>
-            </div>
-            <div>
                 <button className='bg-purple-400 text-white px-4 py-2 rounded hover:bg-purple-500'>
                     Sign in</button>
             </div>
